@@ -1,91 +1,128 @@
-# audio_input.py
+# core/audio_input.py
+
 import json
 import queue
+import numpy as np
 import sounddevice as sd
 from vosk import Model, KaldiRecognizer
+
+
+from speech_manager.audio_filter import AudioFilter, AudioFilterConfig
 from utils.logger import log
+
+
+# --- NEW: Helper function for frequency analysis ---
+def log_dominant_frequency(audio_chunk: np.ndarray, samplerate: int, prefix: str):
+    """
+    Analyzes an audio chunk using FFT and logs its dominant frequency.
+
+    Args:
+        audio_chunk (np.ndarray): The audio data to analyze.
+        samplerate (int): The sample rate of the audio.
+        prefix (str): A label for the log message (e.g., "Raw Audio").
+    """
+    try:
+        # Ensure there's enough data and it's not just silence
+        if audio_chunk.size < 2 or np.max(np.abs(audio_chunk)) < 100:
+            return
+
+        n_samples = len(audio_chunk)
+
+        # Perform the Fast Fourier Transform
+        fft_output = np.fft.fft(audio_chunk)
+        # Calculate the corresponding frequencies for the FFT bins
+        fft_freq = np.fft.fftfreq(n_samples, d=1 / samplerate)
+
+        # We only care about positive frequencies
+        positive_freq_mask = fft_freq > 0
+        freqs = fft_freq[positive_freq_mask]
+        magnitudes = np.abs(fft_output[positive_freq_mask])
+
+        if magnitudes.size == 0:
+            return
+
+        # Find the frequency with the highest magnitude
+        dominant_freq_index = np.argmax(magnitudes)
+        dominant_frequency = freqs[dominant_freq_index]
+
+        # Use DEBUG level for detailed diagnostics
+        log.debug(f"{prefix} - Dominant Frequency: {dominant_frequency:.2f} Hz")
+
+    except Exception as e:
+        log.warning(f"Could not analyze frequency for '{prefix}': {e}")
+
+
+# ------------------------------------------------------------------
+
 
 class SpeechToText:
     """
-    Handles capturing audio from the microphone and transcribing it to text using Vosk.
-    
-    This class follows the Single Responsibility Principle, as its only purpose
-    is to manage the speech-to-text conversion process.
+    Handles capturing audio and transcribing it to text using Vosk.
+    This version delegates noise filtering to a dedicated AudioFilter class.
     """
 
-    def __init__(self, model_path: str, device_id: int = None):
-        """
-        Initializes the SpeechToText engine.
-
-        Args:
-            model_path (str): Path to the Vosk model directory.
-            device_id (int, optional): The ID of the audio input device. 
-                                       Defaults to the system's default device.
-        """
+    def __init__(
+        self,
+        model_path: str,
+        device_id: int = None,
+        filter_config: AudioFilterConfig = AudioFilterConfig(),
+    ):
+        # ... __init__ method remains unchanged ...
         log.info("Initializing Speech-to-Text engine...")
         try:
-            # Load the Vosk model. Models can be downloaded from the Vosk website.
-            # A smaller model is recommended for devices like Raspberry Pi.
             self.model = Model(model_path)
-            self.device_info = sd.query_devices(device_id, 'input')
-            self.samplerate = int(self.device_info['default_samplerate'])
-            # A queue to hold audio chunks from the microphone callback.
+            self.device_info = sd.query_devices(device_id, "input")
+            self.samplerate = int(self.device_info["default_samplerate"])
             self.q = queue.Queue()
-            log.info("Vosk model loaded successfully.")
+            self.filter = AudioFilter(config=filter_config, samplerate=self.samplerate)
+            log.info("Vosk model and audio filter handler initialized successfully.")
         except Exception as e:
-            log.error(f"Failed to load Vosk model from {model_path}. "
-                      f"Please ensure the model is downloaded and the path is correct. Error: {e}")
+            log.error(f"Failed during initialization. Error: {e}")
             raise
 
     def _audio_callback(self, indata, frames, time, status):
-        """
-        This callback function is called by sounddevice for each audio chunk.
-        """
+        # ... _audio_callback method remains unchanged ...
         if status:
             log.warning(f"Audio input status: {status}")
-        # Add the audio chunk (as a bytes object) to the queue.
         self.q.put(bytes(indata))
 
     def listen(self) -> str:
-        """
-        Listens for a single utterance from the microphone and returns the transcribed text.
-
-        This method activates the microphone, waits for the user to speak, and stops
-        once a complete phrase is detected.
-
-        Returns:
-            str: The transcribed text from the user's speech.
-        """
         try:
-            # Create a recognizer instance using the loaded model.
             recognizer = KaldiRecognizer(self.model, self.samplerate)
-            log.info("STT: Listening... Say something!")
+            log.info("Listening... Say something!")
 
-            # Use a context manager to ensure the audio stream is properly closed.
-            with sd.RawInputStream(samplerate=self.samplerate,
-                                   blocksize=8000,
-                                   device=self.device_info['index'],
-                                   dtype='int16',
-                                   channels=1,
-                                   callback=self._audio_callback):
-
+            with sd.RawInputStream(
+                samplerate=self.samplerate,
+                blocksize=8000,
+                device=self.device_info["index"],
+                dtype="int16",
+                channels=1,
+                callback=self._audio_callback,
+            ):
                 while True:
-                    # Get an audio chunk from the queue. This blocks until a chunk is available.
-                    data = self.q.get()
-                    
-                    # Feed the audio data to the recognizer.
-                    if recognizer.AcceptWaveform(data):
-                        # recognizer.AcceptWaveform returns True when it thinks a phrase is complete.
-                        result_json = recognizer.Result()
-                        result_dict = json.loads(result_json)
-                        text = result_dict.get('text', '')
-                        log.info(f"STT: Recognized: '{text}'")
-                        if text: # If text was recognized, stop listening.
+                    raw_data = self.q.get()
+
+                    audio_samples = np.frombuffer(raw_data, dtype=np.int16)
+
+                    # --- ADDED: Log frequency of raw audio ---
+                    log_dominant_frequency(audio_samples, self.samplerate, "Raw Audio")
+
+                    filtered_samples = self.filter.process(audio_samples)
+
+                    # --- ADDED: Log frequency of filtered audio ---
+                    log_dominant_frequency(
+                        filtered_samples, self.samplerate, "Filtered Audio"
+                    )
+
+                    filtered_data_bytes = filtered_samples.astype(np.int16).tobytes()
+
+                    if recognizer.AcceptWaveform(filtered_data_bytes):
+                        result_dict = json.loads(recognizer.Result())
+                        text = result_dict.get("text", "")
+                        log.info(f"Recognized: '{text}'")
+                        if text:
                             return text
-                    # else: # Uncomment to see partial results as you speak
-                    #     partial_result = recognizer.PartialResult()
-                    #     log.debug(f"Partial: {partial_result}")
 
         except Exception as e:
-            log.error(f"STT: An error occurred during listening: {e}")
+            log.error(f"An error occurred during listening: {e}")
             return ""

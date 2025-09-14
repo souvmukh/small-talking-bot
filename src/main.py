@@ -3,6 +3,7 @@
 import os
 from utils.logger import log
 from speech_manager.audio_input import SpeechToText
+from speech_manager.audio_filter import AudioFilterConfig
 from core.text_processing import LLMProcessor, LLMConfig
 from speech_manager.audio_output import TextToSpeech, TTSConfig
 
@@ -11,13 +12,14 @@ from speech_manager.audio_output import TextToSpeech, TTSConfig
 # Path to the Vosk STT model
 # Assumes a 'models' directory in the project root
 MODEL_DIR = "C:\\_c_github\\talker\\models"
-MODEL_NAME = "vosk-model-small-en-us-0.15"
+MODEL_NAME = "vosk-model-en-us-0.22"
 MODEL_PATH = os.path.join(MODEL_DIR, MODEL_NAME)
+
 
 def main():
     """
     The main entry point for the voice assistant application.
-    
+
     This function initializes all the core components and runs the
     main loop for continuous interaction.
     """
@@ -28,16 +30,21 @@ def main():
     try:
         if not os.path.exists(MODEL_PATH):
             log.error(f"Vosk model not found at {MODEL_PATH}.")
-            log.error("Please download the model and place it in the correct directory.")
+            log.error(
+                "Please download the model and place it in the correct directory."
+            )
             return
+        audio_filter = AudioFilterConfig(
+            low_cutoff_hz=250.0, high_cutoff_hz=3500.0, order=5
+        )
 
-        stt_engine = SpeechToText(model_path=MODEL_PATH)
-        
+        stt_engine = SpeechToText(model_path=MODEL_PATH, filter_config=audio_filter)
+
         # Use the Pydantic models to create validated configs
         llm_config = LLMConfig(model_name="phi3:mini")
         llm_processor = LLMProcessor(config=llm_config)
-        
-        tts_config = TTSConfig(rate=165) # Slightly slower for clarity
+
+        tts_config = TTSConfig(rate=165)  # Slightly slower for clarity
         tts_engine = TextToSpeech(config=tts_config)
 
     except Exception as e:
@@ -57,7 +64,7 @@ def main():
             if not user_text:
                 log.warning("No input received or STT failed. Listening again.")
                 continue
-                
+
             # b. Add a simple exit command
             if user_text.lower().strip() == "goodbye":
                 log.info("Exit command received. Shutting down.")
@@ -78,5 +85,5 @@ def main():
         log.info("Application has shut down.")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

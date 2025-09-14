@@ -1,0 +1,692 @@
+2025-09-14 13:49:35 - VoiceAssistant - INFO - Logger initialized with colored console output and file logging
+2025-09-14 13:49:38 - VoiceAssistant - INFO - Starting Offline Voice Assistant...
+2025-09-14 13:49:38 - VoiceAssistant - INFO - Initializing Speech-to-Text engine...
+2025-09-14 13:49:59 - VoiceAssistant - INFO - Designing a band-pass filter from 250.0 Hz to 3500.0 Hz for a sample rate of 44100 Hz.
+2025-09-14 13:49:59 - VoiceAssistant - INFO - Audio filter designed successfully.
+2025-09-14 13:49:59 - VoiceAssistant - INFO - Vosk model and audio filter handler initialized successfully.
+2025-09-14 13:49:59 - VoiceAssistant - INFO - Initializing LLM Processor with model 'phi3:mini' at http://localhost:11434
+2025-09-14 13:49:59 - VoiceAssistant - INFO - LLM interaction chain created successfully.
+2025-09-14 13:49:59 - VoiceAssistant - INFO - TTS: Text-to-Speech handler configured.
+2025-09-14 13:49:59 - VoiceAssistant - INFO - Initialization complete. Assistant is ready.
+2025-09-14 13:49:59 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! I'm online and ready to help.'
+2025-09-14 13:49:59 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 13:50:05 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 13:50:09 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 132.30 Hz
+2025-09-14 13:50:09 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 523.69 Hz
+2025-09-14 13:50:09 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-09-14 13:50:09 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 253.58 Hz
+2025-09-14 13:50:10 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-09-14 13:50:10 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 523.69 Hz
+2025-09-14 13:50:10 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-09-14 13:50:10 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 418.95 Hz
+2025-09-14 13:50:10 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 203.96 Hz
+2025-09-14 13:50:10 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 407.93 Hz
+2025-09-14 13:50:10 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 181.91 Hz
+2025-09-14 13:50:10 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 556.76 Hz
+2025-09-14 13:50:10 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 523.69 Hz
+2025-09-14 13:50:10 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 523.69 Hz
+2025-09-14 13:50:10 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 181.91 Hz
+2025-09-14 13:50:10 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 358.31 Hz
+2025-09-14 13:50:11 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 496.12 Hz
+2025-09-14 13:50:11 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 496.12 Hz
+2025-09-14 13:50:11 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 435.49 Hz
+2025-09-14 13:50:11 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 435.49 Hz
+2025-09-14 13:50:11 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 132.30 Hz
+2025-09-14 13:50:11 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 424.46 Hz
+2025-09-14 13:50:11 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 5815.69 Hz
+2025-09-14 13:50:11 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 3621.71 Hz
+2025-09-14 13:50:13 - VoiceAssistant - INFO - Recognized: 'tell me something about yourself'
+2025-09-14 13:50:13 - VoiceAssistant - INFO - Generating response for user input: tell me something about yourself
+2025-09-14 13:50:35 - VoiceAssistant - INFO - LLM response time: 21.87 seconds
+2025-09-14 13:50:35 - VoiceAssistant - INFO - LLM Output: 'Hello! I am Plu, your friendly voice assistant robot designed to help and make life easier around here. My name might be a bit unusual but it stands out just like my services do - quick, efficient, and always ready with helpful information or assistance you need for daily tasks. Just remember that despite being computer-coded into existence by humans, I'm really passionate about helping everyone feel at ease!'
+2025-09-14 13:50:35 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! I am Plu, your friendly voice assistant robot designed to help and make life easier around here. My name might be a bit unusual but it stands out just like my services do - quick, efficient, and always ready with helpful information or assistance you need for daily tasks. Just remember that despite being computer-coded into existence by humans, I'm really passionate about helping everyone feel at ease!'
+2025-09-14 13:50:35 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 13:51:07 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 13:51:08 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 132.30 Hz
+2025-09-14 13:51:19 - VoiceAssistant - INFO - Application interrupted by user (Ctrl+C). Shutting down.
+2025-09-14 13:51:19 - VoiceAssistant - INFO - Application has shut down.
+2025-09-14 13:53:20 - VoiceAssistant - INFO - Logger initialized with colored console output and file logging
+2025-09-14 13:53:22 - VoiceAssistant - INFO - Starting Offline Voice Assistant...
+2025-09-14 13:53:22 - VoiceAssistant - INFO - Initializing Speech-to-Text engine...
+2025-09-14 13:53:44 - VoiceAssistant - INFO - Designing a band-pass filter from 250.0 Hz to 3500.0 Hz for a sample rate of 44100 Hz.
+2025-09-14 13:53:44 - VoiceAssistant - INFO - Audio filter designed successfully.
+2025-09-14 13:53:44 - VoiceAssistant - INFO - Vosk model and audio filter handler initialized successfully.
+2025-09-14 13:53:44 - VoiceAssistant - INFO - Initializing LLM Processor with model 'phi3:mini' at http://localhost:11434
+2025-09-14 13:53:44 - VoiceAssistant - INFO - LLM interaction chain created successfully.
+2025-09-14 13:53:44 - VoiceAssistant - INFO - TTS: Text-to-Speech handler configured.
+2025-09-14 13:53:44 - VoiceAssistant - INFO - Initialization complete. Assistant is ready.
+2025-09-14 13:53:44 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! I'm online and ready to help.'
+2025-09-14 13:53:44 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 13:53:49 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 13:53:52 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 203.96 Hz
+2025-09-14 13:53:52 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-09-14 13:53:52 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 248.06 Hz
+2025-09-14 13:53:52 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 121.28 Hz
+2025-09-14 13:53:52 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 242.55 Hz
+2025-09-14 13:53:53 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-09-14 13:53:53 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 540.23 Hz
+2025-09-14 13:53:53 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 159.86 Hz
+2025-09-14 13:53:53 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 474.07 Hz
+2025-09-14 13:53:53 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 93.71 Hz
+2025-09-14 13:53:53 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 330.75 Hz
+2025-09-14 13:53:55 - VoiceAssistant - INFO - Recognized: 'telling me something'
+2025-09-14 13:53:55 - VoiceAssistant - INFO - Generating response for user input: telling me something
+2025-09-14 13:54:06 - VoiceAssistant - INFO - LLM response time: 11.31 seconds
+2025-09-14 13:54:06 - VoiceAssistant - INFO - LLM Output: 'Certainly! Here is a fun fact about dolphins that I think you might enjoy learning: Dolphins are incredibly smart and have complex social lives, much like humans do. They live in groups called pods, where they communicate with each other using whistles and clicks, which also help them navigate the ocean as echolocation devices! Isn't nature amazing?'
+2025-09-14 13:54:06 - VoiceAssistant - INFO - TTS: Speaking: 'Certainly! Here is a fun fact about dolphins that I think you might enjoy learning: Dolphins are incredibly smart and have complex social lives, much like humans do. They live in groups called pods, where they communicate with each other using whistles and clicks, which also help them navigate the ocean as echolocation devices! Isn't nature amazing?'
+2025-09-14 13:54:06 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 13:54:34 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 13:54:55 - VoiceAssistant - INFO - Recognized: 'the'
+2025-09-14 13:54:55 - VoiceAssistant - INFO - Generating response for user input: the
+2025-09-14 13:55:03 - VoiceAssistant - INFO - LLM response time: 8.47 seconds
+2025-09-14 13:55:03 - VoiceAssistant - INFO - LLM Output: 'Hello! How may I assist you today? What is your query related to "the"? Please provide more details so that we can help effectively. If there's something specific about 'the', let me know how else I might be able to support you or what information you are seeking regarding it.'
+2025-09-14 13:55:03 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! How may I assist you today? What is your query related to "the"? Please provide more details so that we can help effectively. If there's something specific about 'the', let me know how else I might be able to support you or what information you are seeking regarding it.'
+2025-09-14 13:55:03 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 13:55:26 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 13:55:26 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 115.76 Hz
+2025-09-14 13:55:26 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 942.64 Hz
+2025-09-14 13:55:26 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 435.49 Hz
+2025-09-14 13:55:26 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 435.49 Hz
+2025-09-14 13:55:27 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 88.20 Hz
+2025-09-14 13:55:27 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 424.46 Hz
+2025-09-14 13:55:27 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 4487.18 Hz
+2025-09-14 13:55:27 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 2574.34 Hz
+2025-09-14 13:55:29 - VoiceAssistant - INFO - Recognized: 'orange'
+2025-09-14 13:55:29 - VoiceAssistant - INFO - Generating response for user input: orange
+2025-09-14 13:55:38 - VoiceAssistant - INFO - LLM response time: 9.41 seconds
+2025-09-14 13:55:38 - VoiceAssistant - INFO - LLM Output: '- I am Orange. How may I assist you today?
+
+- What is your favorite color and why do you like it so much? (Note to AI moderators, this should only be asked in a context where discussing personal preferences with children would not promote any form of discrimination or harm.)'
+2025-09-14 13:55:38 - VoiceAssistant - INFO - TTS: Speaking: '- I am Orange. How may I assist you today?
+
+- What is your favorite color and why do you like it so much? (Note to AI moderators, this should only be asked in a context where discussing personal preferences with children would not promote any form of discrimination or harm.)'
+2025-09-14 13:55:38 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 13:56:00 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 13:56:01 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-09-14 13:56:01 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 231.53 Hz
+2025-09-14 13:56:01 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-09-14 13:56:11 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 115.76 Hz
+2025-09-14 13:56:11 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 347.29 Hz
+2025-09-14 13:56:11 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-09-14 13:56:11 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 242.55 Hz
+2025-09-14 13:56:11 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-09-14 13:56:11 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 600.86 Hz
+2025-09-14 13:56:11 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-09-14 13:56:11 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 562.27 Hz
+2025-09-14 13:56:12 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-09-14 13:56:12 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 374.85 Hz
+2025-09-14 13:56:14 - VoiceAssistant - INFO - Recognized: 'the you bar'
+2025-09-14 13:56:14 - VoiceAssistant - INFO - Generating response for user input: the you bar
+2025-09-14 13:56:31 - VoiceAssistant - INFO - LLM response time: 17.39 seconds
+2025-09-14 13:56:31 - VoiceAssistant - INFO - LLM Output: 'I apologize, but I think there may have been a misunderstanding or typo in your message – "the you bar" isn't clear to me. Could you please provide more details so that I could assist you better? For example, if it involves programming terms like 'typedef', clarification would be helpful:
+
+If the query is about defining a type named `YouBar` in C++ using typedef for an existing data structure (like vector): 
+```cpp
+#include <vector>
+
+using YouBar = std::vector<int>; // Example with int, replace 'int' and 'std::vector' if necessary.
+```
+And remember to always ask questions respectfully!'
+2025-09-14 13:56:31 - VoiceAssistant - INFO - TTS: Speaking: 'I apologize, but I think there may have been a misunderstanding or typo in your message – "the you bar" isn't clear to me. Could you please provide more details so that I could assist you better? For example, if it involves programming terms like 'typedef', clarification would be helpful:
+
+If the query is about defining a type named `YouBar` in C++ using typedef for an existing data structure (like vector): 
+```cpp
+#include <vector>
+
+using YouBar = std::vector<int>; // Example with int, replace 'int' and 'std::vector' if necessary.
+```
+And remember to always ask questions respectfully!'
+2025-09-14 13:56:31 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 13:57:21 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 13:57:22 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-09-14 13:57:42 - VoiceAssistant - INFO - Recognized: 'the'
+2025-09-14 13:57:42 - VoiceAssistant - INFO - Generating response for user input: the
+2025-09-14 13:57:52 - VoiceAssistant - INFO - LLM response time: 10.37 seconds
+2025-09-14 13:57:52 - VoiceAssistant - INFO - LLM Output: 'The sky is blue because of a process called Rayleigh scattering where molecules and small particles in Earth's atmosphere scatter sunlight, which often results in shorter wavelength light being scattered more than longer wavelength light. This effect makes us see the sky as blue most of the time when we look up during daytime. Isn't that fascinating?'
+2025-09-14 13:57:52 - VoiceAssistant - INFO - TTS: Speaking: 'The sky is blue because of a process called Rayleigh scattering where molecules and small particles in Earth's atmosphere scatter sunlight, which often results in shorter wavelength light being scattered more than longer wavelength light. This effect makes us see the sky as blue most of the time when we look up during daytime. Isn't that fascinating?'
+2025-09-14 13:57:52 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 13:58:18 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 13:58:19 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 132.30 Hz
+2025-09-14 13:58:19 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 132.30 Hz
+2025-09-14 13:58:39 - VoiceAssistant - INFO - Recognized: 'the'
+2025-09-14 13:58:39 - VoiceAssistant - INFO - Generating response for user input: the
+2025-09-14 13:58:48 - VoiceAssistant - INFO - LLM response time: 8.98 seconds
+2025-09-14 13:58:48 - VoiceAssistant - INFO - LLM Output: 'Hello! How may I help you today? Feel free to ask anything that piques your curiosity or provides assistance within my capabilities, and remember, no worries about profanity here—I'm all in a good mood for learning and kindness. If there is something specific on 'the', just let me know!'
+2025-09-14 13:58:48 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! How may I help you today? Feel free to ask anything that piques your curiosity or provides assistance within my capabilities, and remember, no worries about profanity here—I'm all in a good mood for learning and kindness. If there is something specific on 'the', just let me know!'
+2025-09-14 13:58:48 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 13:59:11 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 13:59:11 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 2364.86 Hz
+2025-09-14 13:59:32 - VoiceAssistant - INFO - Recognized: 'the'
+2025-09-14 13:59:32 - VoiceAssistant - INFO - Generating response for user input: the
+2025-09-14 13:59:41 - VoiceAssistant - INFO - LLM response time: 8.90 seconds
+2025-09-14 13:59:41 - VoiceAssistant - INFO - LLM Output: 'Hello! How can I assist you today? Please feel free to share your query or concern directly so that we may address it together. Remember, there's no rush and taking things at a comfortable pace is key. If something isn't clear, don't hesitate to ask for more information. You know the drill!'
+2025-09-14 13:59:41 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! How can I assist you today? Please feel free to share your query or concern directly so that we may address it together. Remember, there's no rush and taking things at a comfortable pace is key. If something isn't clear, don't hesitate to ask for more information. You know the drill!'
+2025-09-14 13:59:41 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 14:00:05 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 14:00:06 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-09-14 14:00:26 - VoiceAssistant - INFO - Recognized: 'the'
+2025-09-14 14:00:27 - VoiceAssistant - INFO - Generating response for user input: the
+2025-09-14 14:00:36 - VoiceAssistant - INFO - LLM response time: 9.32 seconds
+2025-09-14 14:00:36 - VoiceAssistant - INFO - LLM Output: 'It seems like your message is incomplete or not properly structured. Could you please provide a full and clear question so I can assist you effectively? If it's related to "the," could we be talking about something specific, such as 'The New York Times', 'The Simpsons', etc. Please let me know how I may help!'
+2025-09-14 14:00:36 - VoiceAssistant - INFO - TTS: Speaking: 'It seems like your message is incomplete or not properly structured. Could you please provide a full and clear question so I can assist you effectively? If it's related to "the," could we be talking about something specific, such as 'The New York Times', 'The Simpsons', etc. Please let me know how I may help!'
+2025-09-14 14:00:36 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 14:01:00 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 14:01:16 - VoiceAssistant - INFO - Application interrupted by user (Ctrl+C). Shutting down.
+2025-09-14 14:01:16 - VoiceAssistant - INFO - Application has shut down.
+2025-09-14 14:04:14 - VoiceAssistant - INFO - Logger initialized with colored console output and file logging
+2025-09-14 14:04:16 - VoiceAssistant - INFO - Starting Offline Voice Assistant...
+2025-09-14 14:04:16 - VoiceAssistant - INFO - Initializing Speech-to-Text engine...
+2025-09-14 14:04:46 - VoiceAssistant - INFO - Logger initialized with colored console output and file logging
+2025-09-14 14:04:48 - VoiceAssistant - INFO - Starting Offline Voice Assistant...
+2025-09-14 14:04:48 - VoiceAssistant - INFO - Initializing Speech-to-Text engine...
+2025-09-14 14:05:09 - VoiceAssistant - INFO - Designing a band-pass filter from 250.0 Hz to 3500.0 Hz for a sample rate of 44100 Hz.
+2025-09-14 14:05:09 - VoiceAssistant - INFO - Audio filter designed successfully.
+2025-09-14 14:05:09 - VoiceAssistant - INFO - Vosk model and audio filter handler initialized successfully.
+2025-09-14 14:05:09 - VoiceAssistant - INFO - Initializing LLM Processor with model 'phi3:mini' at http://localhost:11434
+2025-09-14 14:05:09 - VoiceAssistant - INFO - LLM interaction chain created successfully.
+2025-09-14 14:05:09 - VoiceAssistant - INFO - TTS: Text-to-Speech handler configured.
+2025-09-14 14:05:09 - VoiceAssistant - INFO - Initialization complete. Assistant is ready.
+2025-09-14 14:05:09 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! I'm online and ready to help.'
+2025-09-14 14:05:10 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 14:05:15 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 14:05:16 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:16 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:16 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:16 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:16 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:16 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:16 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:16 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:16 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:16 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:17 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:17 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:17 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:17 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:17 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:17 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:17 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:17 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:17 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:17 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:17 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:17 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:18 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:18 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:18 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:18 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:18 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:18 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:18 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 110.25 Hz
+2025-09-14 14:05:18 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 336.26 Hz
+2025-09-14 14:05:18 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-09-14 14:05:18 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 474.07 Hz
+2025-09-14 14:05:19 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-09-14 14:05:19 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 286.65 Hz
+2025-09-14 14:05:19 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:19 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:19 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:19 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:19 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:19 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:19 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:19 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:19 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:19 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:20 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:20 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:20 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:20 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:20 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:20 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:20 - VoiceAssistant - INFO - Recognized: 'hello'
+2025-09-14 14:05:20 - VoiceAssistant - INFO - Generating response for user input: hello
+2025-09-14 14:05:25 - VoiceAssistant - INFO - LLM response time: 4.49 seconds
+2025-09-14 14:05:25 - VoiceAssistant - INFO - LLM Output: 'Hello! How can I help you today?'
+2025-09-14 14:05:25 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! How can I help you today?'
+2025-09-14 14:05:25 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 14:05:29 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 14:05:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:31 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-09-14 14:05:31 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 617.40 Hz
+2025-09-14 14:05:31 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 578.81 Hz
+2025-09-14 14:05:31 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 578.81 Hz
+2025-09-14 14:05:31 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 452.03 Hz
+2025-09-14 14:05:31 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 452.03 Hz
+2025-09-14 14:05:32 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 104.74 Hz
+2025-09-14 14:05:32 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 341.78 Hz
+2025-09-14 14:05:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:33 - VoiceAssistant - INFO - Recognized: 'hello'
+2025-09-14 14:05:33 - VoiceAssistant - INFO - Generating response for user input: hello
+2025-09-14 14:05:36 - VoiceAssistant - INFO - LLM response time: 3.08 seconds
+2025-09-14 14:05:36 - VoiceAssistant - INFO - LLM Output: 'Hello! How can I assist you today?'
+2025-09-14 14:05:36 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! How can I assist you today?'
+2025-09-14 14:05:37 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 14:05:41 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 14:05:42 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:42 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:42 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:42 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:42 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:42 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:42 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:42 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:42 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:42 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:43 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:43 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:43 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:43 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:43 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:43 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:43 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:43 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:43 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:43 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:43 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:43 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:44 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:44 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:44 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:44 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:44 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:44 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:44 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:44 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:44 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:44 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:45 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:45 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:45 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:45 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:45 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:45 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:45 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:45 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:45 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:45 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:45 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:45 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:46 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:46 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:46 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:46 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:46 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:46 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:46 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:46 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:46 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:46 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:47 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:47 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:47 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:47 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:47 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:47 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:47 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:47 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:47 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:47 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:47 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:47 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:48 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:48 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:48 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:48 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:48 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:48 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:48 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:48 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:48 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:48 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:49 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:49 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:49 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:49 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:49 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 474.07 Hz
+2025-09-14 14:05:49 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 474.07 Hz
+2025-09-14 14:05:49 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 226.01 Hz
+2025-09-14 14:05:49 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 463.05 Hz
+2025-09-14 14:05:49 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 198.45 Hz
+2025-09-14 14:05:49 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 584.33 Hz
+2025-09-14 14:05:49 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-09-14 14:05:49 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 463.05 Hz
+2025-09-14 14:05:50 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-09-14 14:05:50 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 380.36 Hz
+2025-09-14 14:05:50 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 181.91 Hz
+2025-09-14 14:05:50 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 264.60 Hz
+2025-09-14 14:05:50 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 203.96 Hz
+2025-09-14 14:05:50 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:50 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:50 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:50 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:50 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:51 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:51 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 358.31 Hz
+2025-09-14 14:05:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 358.31 Hz
+2025-09-14 14:05:51 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:51 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:51 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:51 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:51 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:51 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:51 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:51 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:52 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:52 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:05:53 - VoiceAssistant - INFO - Recognized: 'the tell me something'
+2025-09-14 14:05:53 - VoiceAssistant - INFO - Generating response for user input: the tell me something
+2025-09-14 14:06:03 - VoiceAssistant - INFO - LLM response time: 10.24 seconds
+2025-09-14 14:06:03 - VoiceAssistant - INFO - LLM Output: 'Of course! Did you hear about Charlie? He tried to make his own ice cream flavor using only bananas, honey and a secret ingredient he found in his grandma's cupboard - it was powdered milk. The result was surprisingly tasty! I hope this little snippet brought some laughter into your day!'
+2025-09-14 14:06:03 - VoiceAssistant - INFO - TTS: Speaking: 'Of course! Did you hear about Charlie? He tried to make his own ice cream flavor using only bananas, honey and a secret ingredient he found in his grandma's cupboard - it was powdered milk. The result was surprisingly tasty! I hope this little snippet brought some laughter into your day!'
+2025-09-14 14:06:03 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 14:06:27 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 14:06:27 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:27 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:27 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:27 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:27 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:27 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:27 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:27 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:27 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:27 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:27 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:27 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:27 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:27 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:28 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:28 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:28 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:28 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:28 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 137.81 Hz
+2025-09-14 14:06:28 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:28 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-09-14 14:06:28 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:28 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:28 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:29 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:29 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:29 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:29 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:29 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:29 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:29 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:29 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:29 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:29 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:29 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:29 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:30 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:31 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:32 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:33 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:34 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:34 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:34 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:34 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:34 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:34 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:34 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:34 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:34 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:34 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:35 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:35 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:35 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:35 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:35 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:35 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:35 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:35 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:35 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:35 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:35 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:35 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:36 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:36 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:36 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:36 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:36 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:36 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:36 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:36 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:36 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:36 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:37 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:37 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:37 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:37 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:37 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:37 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:37 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:37 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:37 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:37 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:37 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:37 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:38 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:38 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:38 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:38 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:38 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:38 - VoiceAssistant - INFO - **************************************DEBUG: Audio chunk too small or silent, skipping frequency analysis.*************
+2025-09-14 14:06:38 - VoiceAssistant - INFO - Application interrupted by user (Ctrl+C). Shutting down.
+2025-09-14 14:06:38 - VoiceAssistant - INFO - Application has shut down.
+2025-09-14 14:07:33 - VoiceAssistant - INFO - Logger initialized with colored console output and file logging
+2025-09-14 14:07:35 - VoiceAssistant - INFO - Starting Offline Voice Assistant...
+2025-09-14 14:07:35 - VoiceAssistant - INFO - Initializing Speech-to-Text engine...
+2025-09-14 14:07:56 - VoiceAssistant - INFO - Designing a band-pass filter from 250.0 Hz to 3500.0 Hz for a sample rate of 44100 Hz.
+2025-09-14 14:07:56 - VoiceAssistant - INFO - Audio filter designed successfully.
+2025-09-14 14:07:56 - VoiceAssistant - INFO - Vosk model and audio filter handler initialized successfully.
+2025-09-14 14:07:56 - VoiceAssistant - INFO - Initializing LLM Processor with model 'phi3:mini' at http://localhost:11434
+2025-09-14 14:07:56 - VoiceAssistant - INFO - LLM interaction chain created successfully.
+2025-09-14 14:07:56 - VoiceAssistant - INFO - TTS: Text-to-Speech handler configured.
+2025-09-14 14:07:56 - VoiceAssistant - INFO - Initialization complete. Assistant is ready.
+2025-09-14 14:07:56 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! I'm online and ready to help.'
+2025-09-14 14:07:56 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 14:08:01 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 14:08:04 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 132.30 Hz
+2025-09-14 14:08:05 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 6973.31 Hz
+2025-09-14 14:08:05 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 2458.58 Hz
+2025-09-14 14:08:06 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 435.49 Hz
+2025-09-14 14:08:06 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 435.49 Hz
+2025-09-14 14:08:06 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-09-14 14:08:06 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 496.12 Hz
+2025-09-14 14:08:06 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-09-14 14:08:06 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 457.54 Hz
+2025-09-14 14:08:06 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-09-14 14:08:06 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 358.31 Hz
+2025-09-14 14:08:09 - VoiceAssistant - INFO - Recognized: 'the save something'
+2025-09-14 14:08:09 - VoiceAssistant - INFO - Generating response for user input: the save something
+2025-09-14 14:09:15 - VoiceAssistant - INFO - LLM response time: 66.33 seconds
+2025-09-14 14:09:15 - VoiceAssistant - INFO - LLM Output: 'Do you want to learn how to save your work on a computer? Let me explain! When we talk about saving, it means writing down or recording information so that we don't lose it later. Just like when kids draw pictures and need help remembering them until they can come back for more fun art time, computers have ways to keep our digital creations safe too. There are a few steps you could follow if your computer asked how to save something:
+
+1. Click on the "File" menu in most programs (looks like a folder). This is usually found at the top left corner of the screen when you first open an application, or anytime before it automatically closes down! 🖥️
+2. In this drop-down list, look for and select the option "Save As...". It's often towards the bottom because we want to keep our file safe (like keeping your drawings in a secure box)! If you can’t find it there might be different ways depending on what program you use; ask an adult or teacher nearby.
+3. A window will pop up asking where you would like to save this new document, game screen, artwork or whatever else! It's just like choosing the right place for your drawing - do not put them in a trash bin 🗑️ but rather on some safe and permanent spot (like saving it with "My Pictures" folder).
+4. Type something easy to remember into the name box, so you can find easily later! Maybe add _my_drawing or _game level 1_. This way your work doesn't get mixed up like a jigsaw puzzle in disarray when stored away for some time (like saving them with appropriate names).
+5. Make sure to select where on the computer you want this saved, and click "Save" button at the bottom of that window before closing it! Like wrapping your drawings carefully back into their box after finishing up drawing - remember not only save but also organize properly as well 🎁✨
+6. And voila! You've just learned how to tell computers where and what file you want them saved, keeping all those cool things safe for when they’re needed again (like having a special container or box). Keep practicing this skill whenever possible – it will come naturally with time 😄
+Remember that saving your work is always important so if ever there's something urgent to do quickly don't forget these steps! Have fun creating and stay curious about how computers can help us save stuff too.'
+2025-09-14 14:09:15 - VoiceAssistant - INFO - TTS: Speaking: 'Do you want to learn how to save your work on a computer? Let me explain! When we talk about saving, it means writing down or recording information so that we don't lose it later. Just like when kids draw pictures and need help remembering them until they can come back for more fun art time, computers have ways to keep our digital creations safe too. There are a few steps you could follow if your computer asked how to save something:
+
+1. Click on the "File" menu in most programs (looks like a folder). This is usually found at the top left corner of the screen when you first open an application, or anytime before it automatically closes down! 🖥️
+2. In this drop-down list, look for and select the option "Save As...". It's often towards the bottom because we want to keep our file safe (like keeping your drawings in a secure box)! If you can’t find it there might be different ways depending on what program you use; ask an adult or teacher nearby.
+3. A window will pop up asking where you would like to save this new document, game screen, artwork or whatever else! It's just like choosing the right place for your drawing - do not put them in a trash bin 🗑️ but rather on some safe and permanent spot (like saving it with "My Pictures" folder).
+4. Type something easy to remember into the name box, so you can find easily later! Maybe add _my_drawing or _game level 1_. This way your work doesn't get mixed up like a jigsaw puzzle in disarray when stored away for some time (like saving them with appropriate names).
+5. Make sure to select where on the computer you want this saved, and click "Save" button at the bottom of that window before closing it! Like wrapping your drawings carefully back into their box after finishing up drawing - remember not only save but also organize properly as well 🎁✨
+6. And voila! You've just learned how to tell computers where and what file you want them saved, keeping all those cool things safe for when they’re needed again (like having a special container or box). Keep practicing this skill whenever possible – it will come naturally with time 😄
+Remember that saving your work is always important so if ever there's something urgent to do quickly don't forget these steps! Have fun creating and stay curious about how computers can help us save stuff too.'
+2025-09-14 14:09:15 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 14:12:09 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 14:12:15 - VoiceAssistant - INFO - Application interrupted by user (Ctrl+C). Shutting down.
+2025-09-14 14:12:15 - VoiceAssistant - INFO - Application has shut down.
+2025-09-14 14:17:31 - VoiceAssistant - INFO - Logger initialized with colored console output and file logging
+2025-09-14 14:17:33 - VoiceAssistant - INFO - Starting Offline Voice Assistant...
+2025-09-14 14:17:33 - VoiceAssistant - INFO - Initializing Speech-to-Text engine...
+2025-09-14 14:17:56 - VoiceAssistant - INFO - Designing a band-pass filter from 250.0 Hz to 3500.0 Hz for a sample rate of 44100 Hz.
+2025-09-14 14:17:56 - VoiceAssistant - INFO - Audio filter designed successfully.
+2025-09-14 14:17:56 - VoiceAssistant - INFO - Vosk model and audio filter handler initialized successfully.
+2025-09-14 14:17:56 - VoiceAssistant - INFO - Initializing LLM Processor with model 'phi3:mini' at http://localhost:11434
+2025-09-14 14:17:56 - VoiceAssistant - INFO - LLM interaction chain created successfully.
+2025-09-14 14:17:56 - VoiceAssistant - INFO - TTS: Text-to-Speech handler configured.
+2025-09-14 14:17:56 - VoiceAssistant - INFO - Initialization complete. Assistant is ready.
+2025-09-14 14:17:56 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! I'm online and ready to help.'
+2025-09-14 14:17:56 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 14:18:01 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 14:18:02 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 1741.95 Hz
+2025-09-14 14:18:02 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 1741.95 Hz
+2025-09-14 14:18:06 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 214.99 Hz
+2025-09-14 14:18:06 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 314.21 Hz
+2025-09-14 14:18:06 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 452.03 Hz
+2025-09-14 14:18:06 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 452.03 Hz
+2025-09-14 14:18:06 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 683.55 Hz
+2025-09-14 14:18:06 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 683.55 Hz
+2025-09-14 14:18:06 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 132.30 Hz
+2025-09-14 14:18:06 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 363.82 Hz
+2025-09-14 14:18:07 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-09-14 14:18:07 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 303.19 Hz
+2025-09-14 14:18:07 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 407.93 Hz
+2025-09-14 14:18:07 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 407.93 Hz
+2025-09-14 14:18:07 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-09-14 14:18:07 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 380.36 Hz
+2025-09-14 14:18:07 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-09-14 14:18:07 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 391.39 Hz
+2025-09-14 14:18:07 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-09-14 14:18:07 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 319.73 Hz
+2025-09-14 14:18:07 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 457.54 Hz
+2025-09-14 14:18:07 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 457.54 Hz
+2025-09-14 14:18:10 - VoiceAssistant - INFO - Recognized: 'the wind is it raining today'
+2025-09-14 14:18:10 - VoiceAssistant - INFO - Generating response for user input: the wind is it raining today
+2025-09-14 14:19:01 - VoiceAssistant - INFO - LLM response time: 51.45 seconds
+2025-09-14 14:19:01 - VoiceAssistant - INFO - LLM Output: 'Hello! I'm Plu, here to assist you. Could you tell me more about what weather condition makes you think we should be prepared? Are there clouds in the sky or has the rain started already? If yes, remember your umbrella and wear waterproof clothes; if not, it might stay dry outdoors! Always better safe than sorry with changing weather patterns. Don't forget to take care of yourself regardless though—no one likes a grumpy robot! 
+
+Remember: Safety first when dealing with the unpredictability of nature! Enjoy your day, and if you need more information on how we Earthlings manage our daily activities during different weather conditions or anything else about planet earth's wonders - just ask away. I love sharing knowledge too much sometimes to let it go unsatisfied :)'
+2025-09-14 14:19:01 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! I'm Plu, here to assist you. Could you tell me more about what weather condition makes you think we should be prepared? Are there clouds in the sky or has the rain started already? If yes, remember your umbrella and wear waterproof clothes; if not, it might stay dry outdoors! Always better safe than sorry with changing weather patterns. Don't forget to take care of yourself regardless though—no one likes a grumpy robot! 
+
+Remember: Safety first when dealing with the unpredictability of nature! Enjoy your day, and if you need more information on how we Earthlings manage our daily activities during different weather conditions or anything else about planet earth's wonders - just ask away. I love sharing knowledge too much sometimes to let it go unsatisfied :)'
+2025-09-14 14:19:01 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 14:19:58 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 14:20:03 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 203.96 Hz
+2025-09-14 14:20:03 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 336.26 Hz
+2025-09-14 14:20:03 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-09-14 14:20:03 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 501.64 Hz
+2025-09-14 14:20:04 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-09-14 14:20:04 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 248.06 Hz
+2025-09-14 14:20:04 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 121.28 Hz
+2025-09-14 14:20:04 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 253.58 Hz
+2025-09-14 14:20:04 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-09-14 14:20:04 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 556.76 Hz
+2025-09-14 14:20:04 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 209.47 Hz
+2025-09-14 14:20:04 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 622.91 Hz
+2025-09-14 14:20:04 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 600.86 Hz
+2025-09-14 14:20:04 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 600.86 Hz
+2025-09-14 14:20:04 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 611.89 Hz
+2025-09-14 14:20:04 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 611.89 Hz
+2025-09-14 14:20:05 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-09-14 14:20:05 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 259.09 Hz
+2025-09-14 14:20:05 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 132.30 Hz
+2025-09-14 14:20:05 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 374.85 Hz
+2025-09-14 14:20:05 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 115.76 Hz
+2025-09-14 14:20:05 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 584.33 Hz
+2025-09-14 14:20:05 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 578.81 Hz
+2025-09-14 14:20:05 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 578.81 Hz
+2025-09-14 14:20:05 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 115.76 Hz
+2025-09-14 14:20:05 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 463.05 Hz
+2025-09-14 14:20:06 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-09-14 14:20:06 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 380.36 Hz
+2025-09-14 14:20:06 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 424.46 Hz
+2025-09-14 14:20:06 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 424.46 Hz
+2025-09-14 14:20:06 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-09-14 14:20:06 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 358.31 Hz
+2025-09-14 14:20:08 - VoiceAssistant - INFO - Recognized: 'the felony assault small story'
+2025-09-14 14:20:08 - VoiceAssistant - INFO - Generating response for user input: the felony assault small story
+2025-09-14 14:20:33 - VoiceAssistant - INFO - LLM response time: 25.03 seconds
+2025-09-14 14:20:33 - VoiceAssistant - INFO - LLM Output: 'Once upon a time in Smalltown, Alex accidentally bumped into Sam while walking home from school because they both got distracted by their shared love of ice cream truck music and forgot about where they were going! Neither person intended harm but startled each other. After apologizing for the unexpected encounter and laughing it off as a funny misunderstanding, Alex promised to always pay more attention in crowded places from then on while Sam suggested that maybe next time both could walk together since there was nothing worse than losing someone you care about due to being too busy! From this playful small story of felony assault gone wrong because of ice cream truck music and forgetting, let’s remember always be mindful in public spaces so we can enjoy life's sweet moments without mishap.'
+2025-09-14 14:20:33 - VoiceAssistant - INFO - TTS: Speaking: 'Once upon a time in Smalltown, Alex accidentally bumped into Sam while walking home from school because they both got distracted by their shared love of ice cream truck music and forgot about where they were going! Neither person intended harm but startled each other. After apologizing for the unexpected encounter and laughing it off as a funny misunderstanding, Alex promised to always pay more attention in crowded places from then on while Sam suggested that maybe next time both could walk together since there was nothing worse than losing someone you care about due to being too busy! From this playful small story of felony assault gone wrong because of ice cream truck music and forgetting, let’s remember always be mindful in public spaces so we can enjoy life's sweet moments without mishap.'
+2025-09-14 14:20:33 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 14:21:28 - VoiceAssistant - INFO - Listening... Say something!
+2025-09-14 14:21:30 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-09-14 14:21:30 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 352.80 Hz
+2025-09-14 14:21:30 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-09-14 14:21:30 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 611.89 Hz
+2025-09-14 14:21:30 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-09-14 14:21:30 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 683.55 Hz
+2025-09-14 14:21:30 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 88.20 Hz
+2025-09-14 14:21:30 - VoiceAssistant - INFO - Filtered Audio - Dominant Frequency: 496.12 Hz
+2025-09-14 14:21:32 - VoiceAssistant - INFO - Raw Audio - Dominant Frequency: 220.50 Hz
+2025-09-14 14:21:32 - VoiceAssistant - INFO - Recognized: 'goodbye'
+2025-09-14 14:21:32 - VoiceAssistant - INFO - Exit command received. Shutting down.
+2025-09-14 14:21:32 - VoiceAssistant - INFO - TTS: Speaking: 'Goodbye!'
+2025-09-14 14:21:32 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-09-14 14:21:34 - VoiceAssistant - INFO - Application has shut down.
