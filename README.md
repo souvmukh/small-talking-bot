@@ -120,7 +120,3 @@ Notes
 Contributing
 ------------
 - Fork, add/extend docstrings, tests and raise PRs. Prefer small, focused doc or code changes.
-
-License
--------
-- No explicit license file detected; add LICENSE if intended for public distribution.
