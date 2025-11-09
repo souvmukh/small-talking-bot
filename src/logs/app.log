@@ -690,3 +690,67 @@ Remember: Safety first when dealing with the unpredictability of nature! Enjoy y
 2025-09-14 14:21:32 - VoiceAssistant - INFO - TTS: Speaking: 'Goodbye!'
 2025-09-14 14:21:32 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
 2025-09-14 14:21:34 - VoiceAssistant - INFO - Application has shut down.
+2025-11-09 20:42:52 - VoiceAssistant - INFO - Logger initialized with colored console output and file logging
+2025-11-09 20:43:02 - VoiceAssistant - INFO - Starting Offline Voice Assistant...
+2025-11-09 20:43:02 - VoiceAssistant - INFO - Initializing Speech-to-Text engine...
+2025-11-09 20:43:23 - VoiceAssistant - INFO - Designing a band-pass filter from 250.0 Hz to 3500.0 Hz for a sample rate of 44100 Hz.
+2025-11-09 20:43:23 - VoiceAssistant - INFO - Audio filter designed successfully.
+2025-11-09 20:43:23 - VoiceAssistant - INFO - Vosk model and audio filter handler initialized successfully.
+2025-11-09 20:43:23 - VoiceAssistant - INFO - Initializing LLM Processor with model 'phi3:mini' at http://localhost:11434
+2025-11-09 20:43:23 - VoiceAssistant - INFO - LLM interaction chain created successfully.
+2025-11-09 20:43:23 - VoiceAssistant - INFO - TTS: Text-to-Speech handler configured.
+2025-11-09 20:43:23 - VoiceAssistant - INFO - Initialization complete. Assistant is ready.
+2025-11-09 20:43:23 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! I'm online and ready to help.'
+2025-11-09 20:43:24 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-11-09 20:43:29 - VoiceAssistant - INFO - Listening... Say something!
+2025-11-09 20:43:31 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 121.28 Hz
+2025-11-09 20:43:31 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 264.60 Hz
+2025-11-09 20:43:31 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 7011.90 Hz
+2025-11-09 20:43:31 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 385.88 Hz
+2025-11-09 20:43:31 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 7204.84 Hz
+2025-11-09 20:43:31 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 3263.40 Hz
+2025-11-09 20:43:31 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 1526.96 Hz
+2025-11-09 20:43:31 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 1526.96 Hz
+2025-11-09 20:43:32 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-11-09 20:43:32 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 2475.11 Hz
+2025-11-09 20:43:32 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 7078.05 Hz
+2025-11-09 20:43:32 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 6956.78 Hz
+2025-11-09 20:43:32 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 3197.25 Hz
+2025-11-09 20:43:32 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 121.28 Hz
+2025-11-09 20:43:34 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 253.58 Hz
+2025-11-09 20:43:34 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 259.09 Hz
+2025-11-09 20:43:34 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 407.93 Hz
+2025-11-09 20:43:34 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 407.93 Hz
+2025-11-09 20:43:34 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 358.31 Hz
+2025-11-09 20:43:34 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 358.31 Hz
+2025-11-09 20:43:34 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 1554.53 Hz
+2025-11-09 20:43:34 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 1554.53 Hz
+2025-11-09 20:43:34 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 727.65 Hz
+2025-11-09 20:43:34 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 727.65 Hz
+2025-11-09 20:43:35 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 424.46 Hz
+2025-11-09 20:43:35 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 424.46 Hz
+2025-11-09 20:43:35 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 6515.78 Hz
+2025-11-09 20:43:35 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 1471.84 Hz
+2025-11-09 20:43:35 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 2056.16 Hz
+2025-11-09 20:43:35 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 2056.16 Hz
+2025-11-09 20:43:35 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 4801.39 Hz
+2025-11-09 20:43:35 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 2337.30 Hz
+2025-11-09 20:43:35 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 2337.30 Hz
+2025-11-09 20:43:36 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 711.11 Hz
+2025-11-09 20:43:36 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 711.11 Hz
+2025-11-09 20:43:36 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 920.59 Hz
+2025-11-09 20:43:36 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 920.59 Hz
+2025-11-09 20:43:36 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 121.28 Hz
+2025-11-09 20:43:36 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 600.86 Hz
+2025-11-09 20:43:36 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 540.23 Hz
+2025-11-09 20:43:36 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 540.23 Hz
+2025-11-09 20:43:36 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 429.98 Hz
+2025-11-09 20:43:36 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 429.98 Hz
+2025-11-09 20:43:37 - VoiceAssistant - INFO - Recognized: 'they accept'
+2025-11-09 20:43:37 - VoiceAssistant - INFO - Generating response for user input: they accept
+2025-11-09 20:43:58 - VoiceAssistant - INFO - LLM response time: 20.78 seconds
+2025-11-09 20:43:58 - VoiceAssistant - INFO - LLM Output: 'Sure! What are "they" accepting? If it concerns a gift exchange or celebration like Christmas or birthdays, remember to always choose something thoughtful and kind that you believe your friends would appreciate. However, without more context about what exactly is being accepted, I can't provide specific advice on this matter.'
+2025-11-09 20:43:58 - VoiceAssistant - INFO - TTS: Speaking: 'Sure! What are "they" accepting? If it concerns a gift exchange or celebration like Christmas or birthdays, remember to always choose something thoughtful and kind that you believe your friends would appreciate. However, without more context about what exactly is being accepted, I can't provide specific advice on this matter.'
+2025-11-09 20:43:58 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-11-09 20:44:16 - VoiceAssistant - INFO - Application interrupted by user (Ctrl+C). Shutting down.
+2025-11-09 20:44:16 - VoiceAssistant - INFO - Application has shut down.

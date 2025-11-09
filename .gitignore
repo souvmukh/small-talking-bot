@@ -1,2 +1,4 @@
 *.pyc
 models/*
+src/logs/app.log
+src/logs/app.log
