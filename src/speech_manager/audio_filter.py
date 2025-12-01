@@ -11,10 +11,35 @@ class AudioFilterConfig(BaseModel):
     """
     Pydantic model to hold and validate audio filter settings.
     This configuration is self-contained within the filter module.
+    
+    Human Frequency Range Information:
+    - Human hearing range: ~20 Hz to 20,000 Hz
+    - Human speech fundamental frequencies: ~85-255 Hz (males), ~165-255 Hz (females)
+    - Human speech harmonics and consonants: up to ~8,000 Hz
+    - Optimal speech intelligibility range: ~80-8,000 Hz
+    
+    The default settings filter out:
+    - Sub-sonic noise: < 80 Hz (rumble, vibrations, handling noise)
+    - Ultrasonic noise: > 8,000 Hz (electronic interference, high-frequency artifacts)
+    
+    This preserves the full range of human speech while removing non-human frequency noise.
     """
-    low_cutoff_hz: float = Field(default=200.0, ge=20.0, description="Low cutoff frequency in Hz.")
-    high_cutoff_hz: float = Field(default=3000.0, le=20000.0, description="High cutoff frequency in Hz.")
-    order: int = Field(default=4, ge=1, le=10, description="Order of the Butterworth filter.")
+    low_cutoff_hz: float = Field(
+        default=80.0, 
+        ge=20.0, 
+        description="Low cutoff frequency in Hz. Filters out sub-sonic noise below human speech range."
+    )
+    high_cutoff_hz: float = Field(
+        default=8000.0, 
+        le=20000.0, 
+        description="High cutoff frequency in Hz. Filters out ultrasonic noise above human speech range."
+    )
+    order: int = Field(
+        default=5, 
+        ge=1, 
+        le=10, 
+        description="Order of the Butterworth filter. Higher order = sharper cutoff."
+    )
 
 
 # ----------------------------

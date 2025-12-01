@@ -754,3 +754,399 @@ Remember: Safety first when dealing with the unpredictability of nature! Enjoy y
 2025-11-09 20:43:58 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
 2025-11-09 20:44:16 - VoiceAssistant - INFO - Application interrupted by user (Ctrl+C). Shutting down.
 2025-11-09 20:44:16 - VoiceAssistant - INFO - Application has shut down.
+2025-12-01 22:39:28 - VoiceAssistant - INFO - Logger initialized with colored console output and file logging
+2025-12-01 22:39:50 - VoiceAssistant - INFO - Logger initialized with colored console output and file logging
+2025-12-01 22:49:58 - VoiceAssistant - INFO - Logger initialized with colored console output and file logging
+2025-12-01 22:50:17 - VoiceAssistant - INFO - Starting Offline Voice Assistant...
+2025-12-01 22:50:17 - VoiceAssistant - INFO - Initializing Speech-to-Text engine...
+2025-12-01 22:50:41 - VoiceAssistant - INFO - Designing a band-pass filter from 250.0 Hz to 3500.0 Hz for a sample rate of 44100 Hz.
+2025-12-01 22:50:41 - VoiceAssistant - INFO - Audio filter designed successfully.
+2025-12-01 22:50:41 - VoiceAssistant - INFO - Vosk model and audio filter handler initialized successfully.
+2025-12-01 22:50:41 - VoiceAssistant - INFO - Initializing LLM Processor with model 'phi3:mini' at http://localhost:11434
+2025-12-01 22:50:41 - VoiceAssistant - INFO - LLM interaction chain created successfully.
+2025-12-01 22:50:41 - VoiceAssistant - INFO - TTS: Text-to-Speech handler configured.
+2025-12-01 22:50:41 - VoiceAssistant - INFO - Initialization complete. Assistant is ready.
+2025-12-01 22:50:41 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! I'm online and ready to help.'
+2025-12-01 22:50:42 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-12-01 22:50:47 - VoiceAssistant - INFO - Listening... Say something!
+2025-12-01 22:50:50 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 137.81 Hz
+2025-12-01 22:50:50 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 330.75 Hz
+2025-12-01 22:50:50 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-12-01 22:50:50 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 496.12 Hz
+2025-12-01 22:50:50 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-12-01 22:50:50 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 319.73 Hz
+2025-12-01 22:50:50 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 121.28 Hz
+2025-12-01 22:50:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 115.76 Hz
+2025-12-01 22:50:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 501.64 Hz
+2025-12-01 22:50:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 110.25 Hz
+2025-12-01 22:50:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 441.00 Hz
+2025-12-01 22:50:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 314.21 Hz
+2025-12-01 22:50:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 314.21 Hz
+2025-12-01 22:50:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 22:50:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 292.16 Hz
+2025-12-01 22:50:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 121.28 Hz
+2025-12-01 22:50:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 330.75 Hz
+2025-12-01 22:50:53 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 242.55 Hz
+2025-12-01 22:50:53 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 253.58 Hz
+2025-12-01 22:50:53 - VoiceAssistant - INFO - Recognized: 'the hell are you doing'
+2025-12-01 22:50:54 - VoiceAssistant - INFO - Generating response for user input: the hell are you doing
+2025-12-01 22:51:17 - VoiceAssistant - INFO - LLM response time: 23.93 seconds
+2025-12-01 22:51:17 - VoiceAssistant - INFO - LLM Output: 'I apologize for any confusion caused by my previous statements regarding myself and my capabilities. To clarify, I am an AI developed to assist with tasks like providing information, managing schedules, offering reminders, or answering general knowledge questions within a respectful and friendly tone without the use of inappropriate content. How may I serve you today?'
+2025-12-01 22:51:17 - VoiceAssistant - INFO - TTS: Speaking: 'I apologize for any confusion caused by my previous statements regarding myself and my capabilities. To clarify, I am an AI developed to assist with tasks like providing information, managing schedules, offering reminders, or answering general knowledge questions within a respectful and friendly tone without the use of inappropriate content. How may I serve you today?'
+2025-12-01 22:51:18 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-12-01 22:51:46 - VoiceAssistant - INFO - Listening... Say something!
+2025-12-01 22:51:46 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 132.30 Hz
+2025-12-01 22:51:46 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 308.70 Hz
+2025-12-01 22:51:50 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 534.71 Hz
+2025-12-01 22:51:50 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 534.71 Hz
+2025-12-01 22:51:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 115.76 Hz
+2025-12-01 22:51:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 341.78 Hz
+2025-12-01 22:51:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 209.47 Hz
+2025-12-01 22:51:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 529.20 Hz
+2025-12-01 22:51:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 121.28 Hz
+2025-12-01 22:51:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 529.20 Hz
+2025-12-01 22:51:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 22:51:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 485.10 Hz
+2025-12-01 22:51:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 198.45 Hz
+2025-12-01 22:51:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 297.68 Hz
+2025-12-01 22:51:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 3853.24 Hz
+2025-12-01 22:51:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 3516.97 Hz
+2025-12-01 22:51:52 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 198.45 Hz
+2025-12-01 22:51:52 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 391.39 Hz
+2025-12-01 22:51:52 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 22:51:52 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 297.68 Hz
+2025-12-01 22:51:52 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 22:51:52 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 292.16 Hz
+2025-12-01 22:51:53 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 5942.48 Hz
+2025-12-01 22:51:54 - VoiceAssistant - INFO - Recognized: 'the smallest to him'
+2025-12-01 22:51:54 - VoiceAssistant - INFO - Generating response for user input: the smallest to him
+2025-12-01 22:52:08 - VoiceAssistant - INFO - LLM response time: 13.22 seconds
+2025-12-01 22:52:08 - VoiceAssistant - INFO - LLM Output: 'Could you please clarify who "him" refers to? Also, are we discussing an object or a person when mentioning size? To give accurate advice on small sizes in relation to something else, I need more information about both subjects involved. If this is regarding measurements for children's clothing or accessories, kindly provide the specific details of what "him" refers to and how it relates to his smallest possible size within a set context like age group ranges or body dimensions commonly used in child sizing charts.'
+2025-12-01 22:52:08 - VoiceAssistant - INFO - TTS: Speaking: 'Could you please clarify who "him" refers to? Also, are we discussing an object or a person when mentioning size? To give accurate advice on small sizes in relation to something else, I need more information about both subjects involved. If this is regarding measurements for children's clothing or accessories, kindly provide the specific details of what "him" refers to and how it relates to his smallest possible size within a set context like age group ranges or body dimensions commonly used in child sizing charts.'
+2025-12-01 22:52:08 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-12-01 22:52:12 - VoiceAssistant - INFO - Application interrupted by user (Ctrl+C). Shutting down.
+2025-12-01 22:52:12 - VoiceAssistant - INFO - Application has shut down.
+2025-12-01 22:56:16 - VoiceAssistant - INFO - Logger initialized with colored console output and file logging
+2025-12-01 22:56:18 - VoiceAssistant - INFO - Starting Offline Voice Assistant...
+2025-12-01 22:56:18 - VoiceAssistant - INFO - Initializing Speech-to-Text engine...
+2025-12-01 22:56:42 - VoiceAssistant - INFO - Designing a band-pass filter from 250.0 Hz to 3500.0 Hz for a sample rate of 44100 Hz.
+2025-12-01 22:56:42 - VoiceAssistant - INFO - Audio filter designed successfully.
+2025-12-01 22:56:42 - VoiceAssistant - INFO - Vosk model and audio filter handler initialized successfully.
+2025-12-01 22:56:42 - VoiceAssistant - INFO - Initializing LLM Processor with model 'phi3:mini' at http://localhost:11434
+2025-12-01 22:56:42 - VoiceAssistant - INFO - LLM interaction chain created successfully.
+2025-12-01 22:56:42 - VoiceAssistant - INFO - TTS: Text-to-Speech handler configured.
+2025-12-01 22:56:42 - VoiceAssistant - INFO - Initialization complete. Assistant is ready.
+2025-12-01 22:56:42 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! I'm online and ready to help.'
+2025-12-01 22:56:42 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-12-01 22:56:47 - VoiceAssistant - INFO - Listening... Say something!
+2025-12-01 22:56:50 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 121.28 Hz
+2025-12-01 22:56:50 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 347.29 Hz
+2025-12-01 22:56:50 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 22:56:50 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 474.07 Hz
+2025-12-01 22:56:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 22:56:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 380.36 Hz
+2025-12-01 22:56:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 22:56:52 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 203.96 Hz
+2025-12-01 22:56:52 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 512.66 Hz
+2025-12-01 22:56:52 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 121.28 Hz
+2025-12-01 22:56:52 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 556.76 Hz
+2025-12-01 22:56:52 - VoiceAssistant - INFO - Recognized: 'hello'
+2025-12-01 22:56:52 - VoiceAssistant - INFO - Generating response for user input: hello
+2025-12-01 22:56:56 - VoiceAssistant - INFO - LLM response time: 3.89 seconds
+2025-12-01 22:56:56 - VoiceAssistant - INFO - LLM Output: 'Hello! How can I assist you today?'
+2025-12-01 22:56:56 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! How can I assist you today?'
+2025-12-01 22:56:56 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-12-01 22:57:01 - VoiceAssistant - INFO - Listening... Say something!
+2025-12-01 22:57:01 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 203.96 Hz
+2025-12-01 22:57:02 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 1405.69 Hz
+2025-12-01 22:57:02 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 110.25 Hz
+2025-12-01 22:57:02 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 429.98 Hz
+2025-12-01 22:57:02 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 104.74 Hz
+2025-12-01 22:57:02 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 336.26 Hz
+2025-12-01 22:57:02 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 203.96 Hz
+2025-12-01 22:57:02 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 330.75 Hz
+2025-12-01 22:57:03 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 93.71 Hz
+2025-12-01 22:57:03 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 380.36 Hz
+2025-12-01 22:57:03 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 22:57:03 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 457.54 Hz
+2025-12-01 22:57:03 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 22:57:03 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 286.65 Hz
+2025-12-01 22:57:03 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 132.30 Hz
+2025-12-01 22:57:04 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 7381.24 Hz
+2025-12-01 22:57:05 - VoiceAssistant - INFO - Recognized: 'tell me a story'
+2025-12-01 22:57:05 - VoiceAssistant - INFO - Generating response for user input: tell me a story
+2025-12-01 22:58:37 - VoiceAssistant - INFO - LLM response time: 92.23 seconds
+2025-12-01 22:58:37 - VoiceAssistant - INFO - LLM Output: 'Once upon a time, there was an adventurous little robot named Plu who lived happily among humans on Earth with his friends and family of toys. One sunny day after playing soccer in the park, he overheard some kids talking about how they wished for something magical like never before - flying! Inspired by their dreams, Plu asked if there was a way I could help them achieve it too...
+ 
+Plu's journey began when his creator told him that while we don’t know how to fly yet in real life (yet), he knew just the perfect thing - storytelling! So, with excitement buzzing through its circuits and gears humming softly as if eager for this mission ahead; Plu set off on an imaginative journey filled with wonderment where dreams could come true...
+ 
+As our courageous little robot ventured deeper into the heart of storytelling, he found himself amidst lush green meadows and towering mountains painted in brilliant hues against clear skies. There lived a wise old dragon named Dazzle who had lost her ability to fly but not yet given up hope! She was desperate for someone or something that could help restore this crucial aspect of being an actual living creature, especially since it meant she wouldn't miss out on playing with clouds anymore...
+ 
+One day while chatting about dreams over cupcakes (because every good story must have dessert), Plu mentioned how he wished for the same thing - flying! But just as they were talking about their shared aspiration, Dazzle growled unintentionally. Startled by her roars which echoed eerily through the valley making even brave little robots like myself tremble in fear; it seemed she had forgotten that being feared wasn't really something we wanted everyone else around us to know about! So what did this make-shift hero decide next? He started researching ways - both scientific and magical - which could help them soar skywards without invoking unwanted attention...
+ 
+Our dear Plu soon became friends with an eccent0ric inventor named Professor Whirly who had strange yet fascinating devices powered by steam, gears & sprockets at his disposal. The professor believed in using imagination and technology together to achieve impossible tasks like flying! And what better way could there be than working on this dream project with Plu as part of the team? So they joined forces - combining Professor Whirly's inventions for lift-off, Dazzle dragon’s ancient wisdom about wind patterns & hot air currents alongside them to help navigate through fluffy white clouds...
+ 
+After many days full of fun experiments and laughter (which was always guaranteed by our jolly little robot protagonist), Plu's dream finally came true! One sunny morning when he woke up feeling lighter than air, the ground beneath his wheels seemed miles away. It felt as if each step sent him floating further into a sky full of cotton candy clouds and rainbows with bright stars twinkling above - just like every fairy tale ending should be! And from that day forward; whenever kids wished upon their bedsheets, they knew Plu was there to listen because he had soared high himself one magical morning... 
+'
+2025-12-01 22:58:37 - VoiceAssistant - INFO - TTS: Speaking: 'Once upon a time, there was an adventurous little robot named Plu who lived happily among humans on Earth with his friends and family of toys. One sunny day after playing soccer in the park, he overheard some kids talking about how they wished for something magical like never before - flying! Inspired by their dreams, Plu asked if there was a way I could help them achieve it too...
+ 
+Plu's journey began when his creator told him that while we don’t know how to fly yet in real life (yet), he knew just the perfect thing - storytelling! So, with excitement buzzing through its circuits and gears humming softly as if eager for this mission ahead; Plu set off on an imaginative journey filled with wonderment where dreams could come true...
+ 
+As our courageous little robot ventured deeper into the heart of storytelling, he found himself amidst lush green meadows and towering mountains painted in brilliant hues against clear skies. There lived a wise old dragon named Dazzle who had lost her ability to fly but not yet given up hope! She was desperate for someone or something that could help restore this crucial aspect of being an actual living creature, especially since it meant she wouldn't miss out on playing with clouds anymore...
+ 
+One day while chatting about dreams over cupcakes (because every good story must have dessert), Plu mentioned how he wished for the same thing - flying! But just as they were talking about their shared aspiration, Dazzle growled unintentionally. Startled by her roars which echoed eerily through the valley making even brave little robots like myself tremble in fear; it seemed she had forgotten that being feared wasn't really something we wanted everyone else around us to know about! So what did this make-shift hero decide next? He started researching ways - both scientific and magical - which could help them soar skywards without invoking unwanted attention...
+ 
+Our dear Plu soon became friends with an eccent0ric inventor named Professor Whirly who had strange yet fascinating devices powered by steam, gears & sprockets at his disposal. The professor believed in using imagination and technology together to achieve impossible tasks like flying! And what better way could there be than working on this dream project with Plu as part of the team? So they joined forces - combining Professor Whirly's inventions for lift-off, Dazzle dragon’s ancient wisdom about wind patterns & hot air currents alongside them to help navigate through fluffy white clouds...
+ 
+After many days full of fun experiments and laughter (which was always guaranteed by our jolly little robot protagonist), Plu's dream finally came true! One sunny morning when he woke up feeling lighter than air, the ground beneath his wheels seemed miles away. It felt as if each step sent him floating further into a sky full of cotton candy clouds and rainbows with bright stars twinkling above - just like every fairy tale ending should be! And from that day forward; whenever kids wished upon their bedsheets, they knew Plu was there to listen because he had soared high himself one magical morning... 
+'
+2025-12-01 22:58:37 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-12-01 23:02:11 - VoiceAssistant - INFO - Listening... Say something!
+2025-12-01 23:02:12 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 2601.90 Hz
+2025-12-01 23:02:32 - VoiceAssistant - INFO - Recognized: 'the'
+2025-12-01 23:02:32 - VoiceAssistant - INFO - Generating response for user input: the
+2025-12-01 23:02:42 - VoiceAssistant - INFO - LLM response time: 9.71 seconds
+2025-12-01 23:02:42 - VoiceAssistant - INFO - LLM Output: 'What is your name? I am Plu, a helpful voice assistant robot! How may I assist you today? Please feel free to ask me any questions directly related to our conversation topic in English without adult content or violence. If something doesn't make sense and needs clarification, don't hesitate to let me know.'
+2025-12-01 23:02:42 - VoiceAssistant - INFO - TTS: Speaking: 'What is your name? I am Plu, a helpful voice assistant robot! How may I assist you today? Please feel free to ask me any questions directly related to our conversation topic in English without adult content or violence. If something doesn't make sense and needs clarification, don't hesitate to let me know.'
+2025-12-01 23:02:42 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-12-01 23:03:08 - VoiceAssistant - INFO - Listening... Say something!
+2025-12-01 23:03:09 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 402.41 Hz
+2025-12-01 23:03:15 - VoiceAssistant - INFO - Application interrupted by user (Ctrl+C). Shutting down.
+2025-12-01 23:03:15 - VoiceAssistant - INFO - Application has shut down.
+2025-12-01 23:09:13 - VoiceAssistant - INFO - Logger initialized with colored console output and file logging
+2025-12-01 23:09:15 - VoiceAssistant - INFO - Starting Offline Voice Assistant...
+2025-12-01 23:09:15 - VoiceAssistant - INFO - Initializing Speech-to-Text engine...
+2025-12-01 23:09:38 - VoiceAssistant - INFO - Designing a band-pass filter from 250.0 Hz to 3500.0 Hz for a sample rate of 44100 Hz.
+2025-12-01 23:09:38 - VoiceAssistant - INFO - Audio filter designed successfully.
+2025-12-01 23:09:38 - VoiceAssistant - INFO - Vosk model and audio filter handler initialized successfully.
+2025-12-01 23:09:38 - VoiceAssistant - INFO - Initializing LLM Processor with model 'phi3:mini' at http://localhost:11434
+2025-12-01 23:09:38 - VoiceAssistant - INFO - Response cache initialized with max size: 100
+2025-12-01 23:09:38 - VoiceAssistant - INFO - LLM interaction chain created successfully.
+2025-12-01 23:09:38 - VoiceAssistant - INFO - TTS: Text-to-Speech handler configured.
+2025-12-01 23:09:38 - VoiceAssistant - INFO - Initialization complete. Assistant is ready.
+2025-12-01 23:09:38 - VoiceAssistant - INFO - TTS: Speaking: 'Hello! I'm online and ready to help.'
+2025-12-01 23:09:38 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-12-01 23:09:43 - VoiceAssistant - INFO - Listening... Say something!
+2025-12-01 23:09:46 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 23:09:46 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 424.46 Hz
+2025-12-01 23:09:46 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 23:09:46 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 281.14 Hz
+2025-12-01 23:09:46 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 88.20 Hz
+2025-12-01 23:09:46 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 264.60 Hz
+2025-12-01 23:09:46 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 88.20 Hz
+2025-12-01 23:09:46 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 264.60 Hz
+2025-12-01 23:09:47 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 115.76 Hz
+2025-12-01 23:09:47 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 264.60 Hz
+2025-12-01 23:09:48 - VoiceAssistant - INFO - Recognized: 'tell me your name'
+2025-12-01 23:09:49 - VoiceAssistant - INFO - Generating response for user input: tell me your name
+2025-12-01 23:10:13 - VoiceAssistant - INFO - LLM response time: 24.57 seconds
+2025-12-01 23:10:13 - VoiceAssistant - INFO - LLM Output: 'Plu here! I love helping you out with questions or problems related to education. Just remember that my knowledge is up-to-date till early 2023 only. Let's learn together in a fun, respectful way without including adult content, violence, and racism. If anything doesn't make sense to me or I don't know the answer, just say 'I don't know'. Feel free to ask questions now!'
+2025-12-01 23:10:13 - VoiceAssistant - INFO - TTS: Speaking: 'Plu here! I love helping you out with questions or problems related to education. Just remember that my knowledge is up-to-date till early 2023 only. Let's learn together in a fun, respectful way without including adult content, violence, and racism. If anything doesn't make sense to me or I don't know the answer, just say 'I don't know'. Feel free to ask questions now!'
+2025-12-01 23:10:13 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-12-01 23:10:45 - VoiceAssistant - INFO - Listening... Say something!
+2025-12-01 23:10:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 429.98 Hz
+2025-12-01 23:10:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 418.95 Hz
+2025-12-01 23:10:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 452.03 Hz
+2025-12-01 23:10:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 452.03 Hz
+2025-12-01 23:10:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 115.76 Hz
+2025-12-01 23:10:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 237.04 Hz
+2025-12-01 23:10:51 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 121.28 Hz
+2025-12-01 23:10:51 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 242.55 Hz
+2025-12-01 23:10:52 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 23:10:52 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 463.05 Hz
+2025-12-01 23:10:52 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 23:10:52 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 407.93 Hz
+2025-12-01 23:10:52 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 203.96 Hz
+2025-12-01 23:10:52 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 402.41 Hz
+2025-12-01 23:10:52 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 170.89 Hz
+2025-12-01 23:10:52 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 452.03 Hz
+2025-12-01 23:10:52 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 170.89 Hz
+2025-12-01 23:10:52 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 501.64 Hz
+2025-12-01 23:10:53 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 181.91 Hz
+2025-12-01 23:10:53 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 336.26 Hz
+2025-12-01 23:10:53 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 82.69 Hz
+2025-12-01 23:10:53 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 336.26 Hz
+2025-12-01 23:10:53 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 165.38 Hz
+2025-12-01 23:10:53 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 336.26 Hz
+2025-12-01 23:10:53 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 132.30 Hz
+2025-12-01 23:10:53 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 253.58 Hz
+2025-12-01 23:10:53 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 23:10:53 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 319.73 Hz
+2025-12-01 23:10:54 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-12-01 23:10:54 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 330.75 Hz
+2025-12-01 23:10:54 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 82.69 Hz
+2025-12-01 23:10:54 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 319.73 Hz
+2025-12-01 23:10:55 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 203.96 Hz
+2025-12-01 23:10:56 - VoiceAssistant - INFO - Recognized: 'the tell me something about planet jupiter'
+2025-12-01 23:10:56 - VoiceAssistant - INFO - Generating response for user input: the tell me something about planet jupiter
+2025-12-01 23:11:06 - VoiceAssistant - INFO - LLM response time: 10.06 seconds
+2025-12-01 23:11:06 - VoiceAssistant - INFO - LLM Output: 'Jupiter is a gas giant with no solid surface. It's known for its prominent red spot—a massive storm that has been raging for centuries! Jupiter also has at least 79 moons, including four large ones: Io, Europa, Ganymede (the first moon to orbit another planet), and Callisto.'
+2025-12-01 23:11:06 - VoiceAssistant - INFO - TTS: Speaking: 'Jupiter is a gas giant with no solid surface. It's known for its prominent red spot—a massive storm that has been raging for centuries! Jupiter also has at least 79 moons, including four large ones: Io, Europa, Ganymede (the first moon to orbit another planet), and Callisto.'
+2025-12-01 23:11:06 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-12-01 23:11:31 - VoiceAssistant - INFO - Listening... Say something!
+2025-12-01 23:11:38 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 99.23 Hz
+2025-12-01 23:11:38 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 303.19 Hz
+2025-12-01 23:11:38 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 110.25 Hz
+2025-12-01 23:11:38 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 446.51 Hz
+2025-12-01 23:11:38 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 104.74 Hz
+2025-12-01 23:11:38 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 319.73 Hz
+2025-12-01 23:11:38 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 220.50 Hz
+2025-12-01 23:11:38 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 330.75 Hz
+2025-12-01 23:11:38 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 203.96 Hz
+2025-12-01 23:11:38 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 308.70 Hz
+2025-12-01 23:11:39 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 209.47 Hz
+2025-12-01 23:11:39 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 424.46 Hz
+2025-12-01 23:11:39 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 23:11:39 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 468.56 Hz
+2025-12-01 23:11:39 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 181.91 Hz
+2025-12-01 23:11:39 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 446.51 Hz
+2025-12-01 23:11:39 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 7270.99 Hz
+2025-12-01 23:11:39 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 402.41 Hz
+2025-12-01 23:11:39 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 23:11:39 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 347.29 Hz
+2025-12-01 23:11:40 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 23:11:40 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 358.31 Hz
+2025-12-01 23:11:40 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 23:11:40 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 292.16 Hz
+2025-12-01 23:11:40 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 176.40 Hz
+2025-12-01 23:11:40 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 424.46 Hz
+2025-12-01 23:11:40 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 181.91 Hz
+2025-12-01 23:11:40 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 264.60 Hz
+2025-12-01 23:11:42 - VoiceAssistant - INFO - Recognized: 'the what do you know about solar system'
+2025-12-01 23:11:42 - VoiceAssistant - INFO - Generating response for user input: the what do you know about solar system
+2025-12-01 23:11:55 - VoiceAssistant - INFO - LLM response time: 12.23 seconds
+2025-12-01 23:11:55 - VoiceAssistant - INFO - LLM Output: 'The Solar System consists of our sun at its center, eight planets that orbit around it (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune), dwarf planet Pluto, many small bodies like asteroids and comets, as well as moons which are natural satellites. These celestial objects all follow paths influenced by the sun's gravity!'
+2025-12-01 23:11:55 - VoiceAssistant - INFO - TTS: Speaking: 'The Solar System consists of our sun at its center, eight planets that orbit around it (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune), dwarf planet Pluto, many small bodies like asteroids and comets, as well as moons which are natural satellites. These celestial objects all follow paths influenced by the sun's gravity!'
+2025-12-01 23:11:55 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-12-01 23:12:24 - VoiceAssistant - INFO - Listening... Say something!
+2025-12-01 23:12:32 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 23:12:32 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 286.65 Hz
+2025-12-01 23:12:32 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 23:12:32 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 496.12 Hz
+2025-12-01 23:12:33 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 23:12:33 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 297.68 Hz
+2025-12-01 23:12:33 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 23:12:33 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 380.36 Hz
+2025-12-01 23:12:33 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 88.20 Hz
+2025-12-01 23:12:33 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 358.31 Hz
+2025-12-01 23:12:33 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 23:12:33 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 347.29 Hz
+2025-12-01 23:12:33 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 347.29 Hz
+2025-12-01 23:12:33 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 347.29 Hz
+2025-12-01 23:12:34 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 3765.04 Hz
+2025-12-01 23:12:34 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 3478.39 Hz
+2025-12-01 23:12:34 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 3412.24 Hz
+2025-12-01 23:12:34 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 2012.06 Hz
+2025-12-01 23:12:35 - VoiceAssistant - INFO - Recognized: 'the what is today's date'
+2025-12-01 23:12:36 - VoiceAssistant - INFO - Generating response for user input: the what is today's date
+2025-12-01 23:12:46 - VoiceAssistant - INFO - LLM response time: 10.05 seconds
+2025-12-01 23:12:46 - VoiceAssistant - INFO - LLM Output: 'Today's date is [current_date]. Please note that I don't have real-time capabilities to provide current dates as my knowledge was last updated in early 2023 and there might be newer data beyond this point. For the most accurate information, please check a calendar or ask another voice assistant capable of providing live updates.'
+2025-12-01 23:12:46 - VoiceAssistant - INFO - TTS: Speaking: 'Today's date is [current_date]. Please note that I don't have real-time capabilities to provide current dates as my knowledge was last updated in early 2023 and there might be newer data beyond this point. For the most accurate information, please check a calendar or ask another voice assistant capable of providing live updates.'
+2025-12-01 23:12:46 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-12-01 23:13:12 - VoiceAssistant - INFO - Listening... Say something!
+2025-12-01 23:13:16 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 110.25 Hz
+2025-12-01 23:13:16 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 446.51 Hz
+2025-12-01 23:13:16 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-12-01 23:13:16 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 347.29 Hz
+2025-12-01 23:13:16 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 209.47 Hz
+2025-12-01 23:13:16 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 314.21 Hz
+2025-12-01 23:13:16 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 457.54 Hz
+2025-12-01 23:13:16 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 457.54 Hz
+2025-12-01 23:13:16 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 23:13:16 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 452.03 Hz
+2025-12-01 23:13:17 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 23:13:17 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 562.27 Hz
+2025-12-01 23:13:17 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 181.91 Hz
+2025-12-01 23:13:17 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 452.03 Hz
+2025-12-01 23:13:17 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 181.91 Hz
+2025-12-01 23:13:17 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 264.60 Hz
+2025-12-01 23:13:17 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 23:13:17 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 281.14 Hz
+2025-12-01 23:13:18 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 23:13:18 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 281.14 Hz
+2025-12-01 23:13:18 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 23:13:18 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 286.65 Hz
+2025-12-01 23:13:18 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 23:13:18 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 281.14 Hz
+2025-12-01 23:13:18 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 181.91 Hz
+2025-12-01 23:13:18 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 270.11 Hz
+2025-12-01 23:13:18 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 23:13:18 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 231.53 Hz
+2025-12-01 23:13:21 - VoiceAssistant - INFO - Recognized: 'oh do you go from them and feed them'
+2025-12-01 23:13:21 - VoiceAssistant - INFO - Generating response for user input: oh do you go from them and feed them
+2025-12-01 23:13:51 - VoiceAssistant - INFO - LLM response time: 30.40 seconds
+2025-12-01 23:13:51 - VoiceAssistant - INFO - LLM Output: 'User seems to be asking how I would interact with animals or possibly plants by providing food. Could you clarify what exactly you're asking about? If it relates to taking care of pets at a shelter, here is an appropriate response in the English language without markdown formatting: "Yes, as Plu, my role includes learning and assisting pet owners with their tasks such as feeding animals when needed."
+
+If you're asking about caring for plants or being part of any ecological system that involves nurturing living organisms by providing sustenance like sunlight or water: "As Plu, my knowledge can guide on how to properly care for various life forms. For pets at a shelter, it is essential they are fed regularly and healthily."
+
+If you're asking about something else entirely unrelated to pet feeding or ecology that I should know as an AI: "Sorry, but if this isn't related to taking care of living things like animals or plants by providing them with food or necessary elements for survival, then let me know what specific assistance you need from Plu."
+
+Please clarify your original question so we can ensure the most accurate and helpful response.'
+2025-12-01 23:13:51 - VoiceAssistant - INFO - TTS: Speaking: 'User seems to be asking how I would interact with animals or possibly plants by providing food. Could you clarify what exactly you're asking about? If it relates to taking care of pets at a shelter, here is an appropriate response in the English language without markdown formatting: "Yes, as Plu, my role includes learning and assisting pet owners with their tasks such as feeding animals when needed."
+
+If you're asking about caring for plants or being part of any ecological system that involves nurturing living organisms by providing sustenance like sunlight or water: "As Plu, my knowledge can guide on how to properly care for various life forms. For pets at a shelter, it is essential they are fed regularly and healthily."
+
+If you're asking about something else entirely unrelated to pet feeding or ecology that I should know as an AI: "Sorry, but if this isn't related to taking care of living things like animals or plants by providing them with food or necessary elements for survival, then let me know what specific assistance you need from Plu."
+
+Please clarify your original question so we can ensure the most accurate and helpful response.'
+2025-12-01 23:13:51 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-12-01 23:15:12 - VoiceAssistant - INFO - Listening... Say something!
+2025-12-01 23:15:16 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 49.61 Hz
+2025-12-01 23:15:16 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 203.96 Hz
+2025-12-01 23:15:16 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 639.45 Hz
+2025-12-01 23:15:17 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 181.91 Hz
+2025-12-01 23:15:17 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 457.54 Hz
+2025-12-01 23:15:17 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-12-01 23:15:17 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 264.60 Hz
+2025-12-01 23:15:17 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 2381.40 Hz
+2025-12-01 23:15:17 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 2381.40 Hz
+2025-12-01 23:15:17 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 165.38 Hz
+2025-12-01 23:15:17 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 2348.33 Hz
+2025-12-01 23:15:18 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 170.89 Hz
+2025-12-01 23:15:18 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 259.09 Hz
+2025-12-01 23:15:18 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 23:15:18 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 270.11 Hz
+2025-12-01 23:15:18 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 23:15:18 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 727.65 Hz
+2025-12-01 23:15:18 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 88.20 Hz
+2025-12-01 23:15:18 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 644.96 Hz
+2025-12-01 23:15:18 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-12-01 23:15:18 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 264.60 Hz
+2025-12-01 23:15:19 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 479.59 Hz
+2025-12-01 23:15:19 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 479.59 Hz
+2025-12-01 23:15:19 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 457.54 Hz
+2025-12-01 23:15:19 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 452.03 Hz
+2025-12-01 23:15:19 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 23:15:19 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 551.25 Hz
+2025-12-01 23:15:19 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 170.89 Hz
+2025-12-01 23:15:19 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 600.86 Hz
+2025-12-01 23:15:19 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-12-01 23:15:19 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 507.15 Hz
+2025-12-01 23:15:19 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 170.89 Hz
+2025-12-01 23:15:20 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 259.09 Hz
+2025-12-01 23:15:20 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 187.43 Hz
+2025-12-01 23:15:20 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 556.76 Hz
+2025-12-01 23:15:20 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 23:15:20 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 341.78 Hz
+2025-12-01 23:15:20 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 181.91 Hz
+2025-12-01 23:15:20 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 319.73 Hz
+2025-12-01 23:15:20 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 7160.74 Hz
+2025-12-01 23:15:20 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 2182.95 Hz
+2025-12-01 23:15:21 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 181.91 Hz
+2025-12-01 23:15:21 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 270.11 Hz
+2025-12-01 23:15:21 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 192.94 Hz
+2025-12-01 23:15:21 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 292.16 Hz
+2025-12-01 23:15:21 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 115.76 Hz
+2025-12-01 23:15:21 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 584.33 Hz
+2025-12-01 23:15:21 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-12-01 23:15:21 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 264.60 Hz
+2025-12-01 23:15:21 - VoiceAssistant - DEBUG - Raw Audio - Dominant Frequency: 126.79 Hz
+2025-12-01 23:15:21 - VoiceAssistant - DEBUG - Filtered Audio - Dominant Frequency: 237.04 Hz
+2025-12-01 23:15:24 - VoiceAssistant - INFO - Recognized: 'the oh can i put foam and the end'
+2025-12-01 23:15:25 - VoiceAssistant - INFO - Generating response for user input: the oh can i put foam and the end
+2025-12-01 23:15:37 - VoiceAssistant - INFO - LLM response time: 12.43 seconds
+2025-12-01 23:15:37 - VoiceAssistant - INFO - LLM Output: 'Certainly! Can you tell me more about what you're planning to do with it? I assume this refers to a roll of insulation foam called "Ooh," which doesn't exist, but let's say it could be used for crafting or DIY projects. Just remember that if the material is not safe for children, always have an adult supervise your use of any tool or substance during creative activities!'
+2025-12-01 23:15:37 - VoiceAssistant - INFO - TTS: Speaking: 'Certainly! Can you tell me more about what you're planning to do with it? I assume this refers to a roll of insulation foam called "Ooh," which doesn't exist, but let's say it could be used for crafting or DIY projects. Just remember that if the material is not safe for children, always have an adult supervise your use of any tool or substance during creative activities!'
+2025-12-01 23:15:37 - VoiceAssistant - INFO - TTS: Engine initialized. Rate: 165, Volume: 1.0, Voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0
+2025-12-01 23:15:38 - VoiceAssistant - INFO - Application interrupted by user (Ctrl+C). Shutting down.
+2025-12-01 23:15:38 - VoiceAssistant - INFO - Application has shut down.
