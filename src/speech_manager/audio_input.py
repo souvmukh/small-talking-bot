@@ -1,5 +1,4 @@
 # core/audio_input.py
-
 import json
 import queue
 import numpy as np

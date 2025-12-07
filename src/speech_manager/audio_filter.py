@@ -1,8 +1,8 @@
 # core/audio_filter.py
-import numpy as np
 from pydantic import BaseModel, Field
 from utils.logger import log
 from scipy import signal
+import numpy as np
 
 # ----------------------------
 # 1. Pydantic Configuration Model

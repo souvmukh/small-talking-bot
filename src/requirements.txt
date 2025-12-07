@@ -11,3 +11,4 @@ pydantic-settings
 black
 sounddevice
 scipy==1.13.1
+numpy
